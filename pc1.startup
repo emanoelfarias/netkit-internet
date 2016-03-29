@@ -2,6 +2,11 @@
 
 ifconfig eth0 10.1.1.1/24
 
+#dns padrao
+
+echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+
+
 #configuracao rotas
 
-route add default gw 10.1.1.253 dev eth0 #gateway padrao
+route add default gw 10.1.1.254 dev eth0 #gateway padrao

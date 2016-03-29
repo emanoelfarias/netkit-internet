@@ -1,6 +1,10 @@
 #configuracao ips
 
 ifconfig eth0 10.2.1.1/24
+#dns padrao
+
+echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+
 
 #configuracao rotas
 

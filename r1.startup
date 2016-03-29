@@ -3,6 +3,7 @@
 ifconfig eth1 10.1.1.253/24
 ifconfig eth0 192.168.1.1/30
 
+
 #configuracao rotas
 
 route add default gw 10.1.1.254 dev eth1 #gateway padrao
